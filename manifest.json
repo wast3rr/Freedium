@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Freedium",
+	"version": "1.0",
+
+	"description": "Freedium does not remove the paywall on Medium.com, allowing access to premium articles. Instead, it removes premium articles from your feed. This is in an attempt to stop people from getting sucked into an article, only to realize they've missed the small premium symbol and must pay to get more access.",
+	"homepage_url": "https://github.com/midas10/Freedium",
+
+	"icons": {
+		"48": "icons/freedium-48.png",
+		"96": "icons/freedium-96.png"
+	},
+
+	"browser_action": {
+		"default_icon": "icons/freedium-32.png",
+		"default_title": "Freedium",
+		"default_popup": "popup/toggle_page.html"
+	},
+
+	"web_accessible_resources": [
+		"icons/donation-button.png"
+	]
+}
