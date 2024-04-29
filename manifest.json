@@ -11,13 +11,21 @@
 		"96": "icons/freedium-96.png"
 	},
 
+	"permissions": [
+		"storage",
+		"activeTab"
+	],
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.medium.com/*"],
+			"js": ["freedium.js"]
+		}
+	],
+
 	"browser_action": {
 		"default_icon": "icons/freedium-32.png",
 		"default_title": "Freedium",
 		"default_popup": "popup/toggle_page.html"
-	},
-
-	"web_accessible_resources": [
-		"icons/donation-button.png"
-	]
+	}
 }

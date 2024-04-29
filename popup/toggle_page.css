@@ -1,0 +1,42 @@
+html, body {
+	width: 200px;
+	background-color: #F4EBD9;
+}
+
+h1 {
+	margin: 3% auto;
+	text-align: center;
+	color: #483D3F;
+	font-size: 2.5em;
+	font-family: tahoma;
+}
+
+button {
+	border: none;
+	width: 100%;
+	height: 70px;
+	margin: 3% auto;
+	padding: 4px;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-align: center;
+	font-size: 1.5em;
+	cursor: pointer;
+	background-color: #77685D;
+	color: white;
+	font-family: monospace;
+}
+
+p, a {
+	text-align: center;
+	font-size: 1em;
+	font-family: tahoma;
+}
+
+a:link, a:visited {
+	color: #77685D;
+}
+
+a:active, a:hover {
+	color: #A39A92;
+}
