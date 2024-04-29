@@ -1,8 +1,9 @@
-<h1 align="center">
+<p align="center">
     <img src="icons/freedium.png" />
+</p>
+<h1 align="center">
     Freedium
 </h1>
----
 ## What is Freedium?
 Tired of scrolling on Medium.com, seeing an interesting article, only to click on it and realize that it's for paid members only and you missed the little star icon? Me too, and that's why I created this Firefox plugin.
 
