@@ -1,7 +1,7 @@
 # Freedium
 
 ## What is Freedium?
-Tired of scrolling on Medium.com, seeing an interesting article, only to click on it and realize that it's for paid members only? Me too, and that's why I created this Firefox plugin.
+Tired of scrolling on Medium.com, seeing an interesting article, only to click on it and realize that it's for paid members only and you missed the little star icon? Me too, and that's why I created this Firefox plugin.
 
 Freedium scans all of the articles on your medium homepage and removes any paid ones for you so that you aren't even tempted. There are other resources that will allow you to read paid Medium articles for free, but unfortunately these are periodically nuked by the company and therefore I didn't even bother creating such a tool.
 
