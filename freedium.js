@@ -29,4 +29,24 @@ function handleMutations(mutationsList) {
 
 const observer = new MutationObserver(handleMutations);
 
-observer.observe(document.body, observerConfig);
+if (localStorage.getItem("toggle") === null) {
+	localStorage.setItem("toggle", 1);
+	//console.log("init");
+}
+
+//console.log(localStorage.getItem("toggle"));
+browser.runtime.onMessage.addListener(function(msg) {
+	//console.log("message", msg.filterEnabled);
+	if (msg.filterEnabled == 1) {
+		localStorage.setItem("toggle", 1);
+		//console.log("test3");
+	} else {
+		localStorage.setItem("toggle", 0);
+		//console.log("test4");
+	}
+});
+
+if (localStorage.getItem("toggle") == 1) {
+	//document.body.style.border = "5px solid red";
+	observer.observe(document.body, observerConfig);
+}
